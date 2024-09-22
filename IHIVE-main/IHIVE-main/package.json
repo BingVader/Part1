@@ -1,0 +1,31 @@
+{
+  "name": "ihive",
+  "version": "1.0.0",
+  "description": "An idea patent webapplication using Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingVader/IHIVE.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Rao Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingVader/IHIVE/issues"
+  },
+  "homepage": "https://github.com/BingVader/IHIVE#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.11"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "ihive": "file:"
+  }
+}
